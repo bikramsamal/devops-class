@@ -12,3 +12,5 @@ select BUNDLE_SERIES,PATCH_UID,PATCH_ID,
 VERSION,ACTION,STATUS,ACTION_TIME ,DESCRIPTION
 from dba_registry_sqlpatch;
 Patching doc.
+
+RAC patching document, so you can follow this for future reference. 
