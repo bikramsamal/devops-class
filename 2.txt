@@ -1,0 +1,16 @@
+RAC Patching
++++++++++
+take the backup & DB, Grid Home, oracle Home.
+
+Bring the software to server.
+	Check the OPatch verion.  
+	Check any confilicity. 
+go to the software directory. 
+Set the path.export PATH=$PATH:/u01/app/12.1.0/grid/OPatch/
+execute the command : opatchauto  apply << 1s node.
+
+Check the db status .
+
+do the same step on other node.	
+##############################
+Rolling Patch
