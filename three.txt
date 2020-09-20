@@ -5,4 +5,3 @@
  configJob.interval=60000  //Time in milliseconds to configure the interval at which the quartz schedule should run, default value is 60000 if not configured.
   configJob.actualCount=-1  //The count of number of times the config job would run.  If value is -1, the job will run indefinitely.  If the value is o, the job will not run.  Default value is -1 when not configured.
   
-  THis is comes from Banner 9 groovy file
