@@ -1,0 +1,37 @@
+03        GOKJSON.close_for_return;
+3004        return;
+3005        <<ftvedit_body_5001_e>>
+3006    if bwfktrni.ftvedit_edit_code <> '5002' then
+3007    goto ftvedit_body_5002_e;
+3008        end if;
+3009        bwfked2t.p_trni_e_5002;
+3010
+3011        GOKJSON.close_for_return;
+3012        return;
+3013        <<ftvedit_body_5002_e>>
+3014    if bwfktrni.ftvedit_edit_code <> '5003' then
+3015    goto ftvedit_body_5003_e;
+3016        end if;
+3017        bwfked2t.p_trni_e_5003;
+3018
+3019        GOKJSON.close_for_return;
+3020        return;
+3021        <<ftvedit_body_5003_e>>
+3022    if bwfktrni.ftvedit_edit_code <> '5005' then
+3023    goto ftvedit_body_5005_e;
+3024        end if;
+3025        bwfked2t.p_trni_e_5005;
+3026
+3027        GOKJSON.close_for_return;
+3028        return;
+3029        <<ftvedit_body_5005_e>>
+3030    if bwfktrni.ftvedit_edit_code <> '5006' then
+3031    goto ftvedit_body_5006_e;
+3032        end if;
+3033        bwfked2t.p_trni_e_5006;
+3034
+3035        GOKJSON.close_for_return;
+3036        return;
+3037        <<ftvedit_body_5006_e>>
+3038    if bwfktrni.ftvedit_edit_code <> '5600' then
+3039
