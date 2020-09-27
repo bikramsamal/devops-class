@@ -1,0 +1,17 @@
+Step-by-Step One Node Rac Applying Psu Patch on 12c Grid and DB Home
+====================================================================
+Now, login as root user and set the environmental variables
+$ cd <PATH_TO_PATCH>
+$ unzip p27967747_121020_Linux-x86-64.zip
+$ cd 27967747
+$ $ORACLE_HOME/OPatch/opatchauto apply ./
+
+Similarly, follow the same steps to apply the patch in Node 2
+
+select BUNDLE_SERIES,PATCH_UID,PATCH_ID,
+VERSION,ACTION,STATUS,ACTION_TIME ,DESCRIPTION
+from dba_registry_sqlpatch;
+<<<<<<< HEAD
+Patching doc.
+=======
+>>>>>>> ea47daf55910399be410c813408d6181451d4822
