@@ -1,0 +1,36 @@
+Short description: FORDH: PROD :- Migrate from Pipes to Advance Queue
+________________________________________
+State: Scheduled
+Category: Work Order
+Configuration item: 
+Opened by: Bikram KeshariSamal
+Location: 
+Assignment group: CLD - East
+Assigned to: Bikram KeshariSamal
+ 
+Description:
+Migrate Pipes to Advanced Queuing.
+
+Maintenance Window:
+2020-09-30 13:30:00 (IST)
+2020-09-30 16:30:00 (IST)
+
+Affected servers:
+FORDH-PJOBA-501 
+FORDH-PBNRD-501
+
+Change Task to disable Pipes monitoring after work.: <Engineer create CTASK00054746#>
+Attachments: 
+calendar.ics
+Checklist - Banner PRE_Validation v3.1.docx
+________________________________________
+Comments and Work notes:
+________________________________________
+2020-09-25 15:58:30 EDT - Vinitha Venkateswaralu Work notes
+Worknote from CTASK00054746: On 30th November sfrpipe will be disabled and SFRADVQ process will be enabled on FORDH-PJOBA-501
+Fordham University
+
+
+Unsubscribe | Notification Preferences
+ 
+Ref:MSG9857137_Izwiqb625h5W7lKU3u84
